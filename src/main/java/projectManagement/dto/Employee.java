@@ -5,6 +5,7 @@ public class Employee {
 	private String empName;
 	private Double empSalary;
 	private Department empDepartment;
+	private int empProjectId;
 	
 	public Employee() {
 		
@@ -40,6 +41,12 @@ public class Employee {
 	}
 	public void setEmpDepartment(Department empDepartment) {
 		this.empDepartment = empDepartment;
+	}
+	public int getEmpProjectId() {
+		return empProjectId;
+	}
+	public void setEmpProjectId(int empProjectId) {
+		this.empProjectId = empProjectId;
 	}
 	
 }
