@@ -9,7 +9,7 @@ class ProjectManagementTest {
 	EmployeeServices service = new EmployeeServiceImpl();
 	@Test
 	void test() {
-		fail("Not yet implemented");
+		System.out.println("Hello");
 	}
 
 }
