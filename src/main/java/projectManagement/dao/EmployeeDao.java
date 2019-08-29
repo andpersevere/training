@@ -8,6 +8,5 @@ public interface EmployeeDao {
 	public abstract Employee searchEmployee(int empId);
 	public abstract boolean deleteEmployee(int empId);
 	public abstract boolean updateEmployee(int empId);
-	public abstract Employee addEmployeeToProject(Employee emp, int projectId);
 	
 }

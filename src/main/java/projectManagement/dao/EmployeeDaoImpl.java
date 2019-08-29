@@ -57,9 +57,4 @@ public class EmployeeDaoImpl implements EmployeeDao{
 		return false;
 	}
 
-	public Employee addEmployeeToProject(Employee emp, int projectId) {
-		emp.setEmpProjectId(projectId);
-		return emp;
-	}
-
 }
